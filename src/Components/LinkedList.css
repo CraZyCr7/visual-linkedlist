@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(255, 251, 251);
 }
 
 a{
@@ -16,7 +16,7 @@ a:hover{
 }
 
 .linkedListMain{
-    background-color: lightcoral;
+    background-color: rgb(255, 251, 251);
     display: grid;
     grid-template-areas:
     " head head head head head "
@@ -28,7 +28,7 @@ a:hover{
 .linkedListMain .header{
     display: grid;
     grid-area: head;
-    background-color: red;
+    background-color: rgb(224, 219, 219);
     align-self: center;
     justify-self: center;
     margin-bottom: 2rem;
@@ -39,7 +39,7 @@ a:hover{
 
 .linkedListMain .ui{
     display: grid;
-    background-color: lightseagreen;
+    background-color: rgb(250, 255, 255);
     grid-area: ui;
     margin-left: 15px;
     max-width: 300px;
